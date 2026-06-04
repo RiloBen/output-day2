@@ -41,7 +41,15 @@
                         </h2>
                     </div>
 
-                    <span>Hello, {{ session('username') }}</span>
+                    <div class="flex items-center gap-4">
+                        <button id="theme-toggle" aria-label="Toggle dark mode" class="p-2 rounded hover:bg-slate-200 dark:hover:bg-slate-700" title="Toggle dark mode">
+                            <svg id="theme-toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m8.66-11.34l-.7.7M4.04 19.96l-.7.7M21 12h-1M4 12H3m15.66 5.66l-.7-.7M4.04 4.04l-.7-.7M12 5a7 7 0 100 14 7 7 0 000-14z" />
+                            </svg>
+                        </button>
+
+                        <span>Hello, {{ session('username') }}</span>
+                    </div>
                 </header>
 
                 <div class="p-4">
