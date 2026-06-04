@@ -6,7 +6,7 @@
         Kuis AI
     </h2>
 
-    <p class="text-slate-600 mb-8">
+    <p class="text-slate-600 mb-8 dark:text-slate-400">
         Uji pemahamanmu melalui kuis yang dibuat secara otomatis oleh AI.
     </p>
 
@@ -16,7 +16,7 @@
                 Dasar Laravel Framework
             </h3>
 
-            <p class="text-slate-500">
+            <p class="text-slate-500 dark:text-slate-400">
                 5 Pertanyaan
             </p>
 
@@ -38,7 +38,7 @@
                 Pengenalan Next.js
             </h3>
 
-            <p class="text-slate-500">
+            <p class="text-slate-500 dark:text-slate-400">
                 5 Pertanyaan
             </p>
 

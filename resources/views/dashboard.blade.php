@@ -6,13 +6,13 @@
         Selamat Datang Kembali
     </h2>
 
-    <p class="text-slate-600 mb-8">
+    <p class="text-slate-600 mb-8 dark:text-slate-400">
         Siap melanjutkan proses belajar hari ini?
     </p>
 
     <div class="grid md:grid-cols-3 gap-6">
         <x-card>
-            <p class="text-slate-500">
+            <p class="text-slate-500 dark:text-slate-400">
                 Total Catatan
             </p>
             <h3 class="text-3xl font-bold mt-2">
@@ -21,7 +21,7 @@
         </x-card>
 
         <x-card>
-            <p class="text-slate-500">
+            <p class="text-slate-500 dark:text-slate-400">
                 Total Kuis
             </p>
             <h3 class="text-3xl font-bold mt-2">
@@ -30,7 +30,7 @@
         </x-card>
 
         <x-card>
-            <p class="text-slate-500">
+            <p class="text-slate-500 dark:text-slate-400">
                 Total Aktivitas
             </p>
             <h3 class="text-3xl font-bold mt-2">

@@ -6,7 +6,7 @@
         Catatan Pembelajaran
     </h2>
 
-    <p class="text-slate-500 mt-2">
+    <p class="text-slate-500 mt-2 dark:text-slate-400">
         Kelola materi belajar dan buat ringkasan cerdas dengan bantuan AI.
     </p>
 
@@ -16,12 +16,12 @@
         <div class="space-y-4">
             <div>
                 <label class="block mb-2">Judul Catatan</label>
-                <input type="text" name="title" class="w-full border rounded-lg px-4 py-2">
+                <input type="text" name="title" class="w-full border border-slate-300 bg-white text-slate-900 rounded-lg px-4 py-2 dark:bg-slate-950 dark:border-slate-700 dark:text-slate-100">
             </div>
 
             <div>
                 <label class="block mb-2">Isi Materi</label>
-                <textarea rows="6" name="content" class="w-full border rounded-lg px-4 py-2"></textarea>
+                <textarea rows="6" name="content" class="w-full border border-slate-300 bg-white text-slate-900 rounded-lg px-4 py-2 dark:bg-slate-950 dark:border-slate-700 dark:text-slate-100"></textarea>
             </div>
         </div>
 
@@ -31,9 +31,9 @@
     <x-card>
         <h3 class="text-lg font-semibold mb-4">Unggah Dokumen</h3>
 
-        <input type="file" class="block w-full border rounded-lg px-4 py-2">
+        <input type="file" class="block w-full border border-slate-300 bg-white text-slate-900 rounded-lg px-4 py-2 dark:bg-slate-950 dark:border-slate-700 dark:text-slate-100">
 
-        <p class="text-slate-500 mt-4">
+        <p class="text-slate-500 mt-4 dark:text-slate-400">
             Unggah PDF, dokumen, atau materi belajar untuk diproses dan diringkas oleh AI.
         </p>
     </x-card>
@@ -47,7 +47,7 @@
                     Dasar Laravel Framework
                 </h4>
 
-                <p class="text-slate-500 mt-2">
+                <p class="text-slate-500 mt-2 dark:text-slate-400">
                     Mempelajari konsep Route, Controller, Blade Template, dan struktur dasar aplikasi Laravel.
                 </p>
 
@@ -71,7 +71,7 @@
                     Pengenalan Next.js
                 </h4>
 
-                <p class="text-slate-500 mt-2">
+                <p class="text-slate-500 mt-2 dark:text-slate-400">
                     Memahami routing, komponen React, serta proses rendering pada framework Next.js.
                 </p>
 

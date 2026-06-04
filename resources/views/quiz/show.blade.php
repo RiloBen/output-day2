@@ -6,7 +6,7 @@
         Kuis AI
     </h2>
 
-    <p class="text-slate-600 mb-6">
+    <p class="text-slate-600 mb-6 dark:text-slate-400">
         Jawablah pertanyaan berikut sesuai dengan materi yang telah dipelajari.
     </p>
 
